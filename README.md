@@ -1,1 +1,1 @@
-# GhostRecon
+# GhostRecon  - Passive Subdomain Enumeration Tool
