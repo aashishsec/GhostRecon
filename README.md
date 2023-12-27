@@ -2,7 +2,9 @@
 
 # Reconnaissance Tool
 
-![Banner](banner.png)
+```bash
+
+```
 
 Author: Aashishsec  
 GitHub: [https://github.com/aashishsec/](https://github.com/aashishsec/)
