@@ -29,12 +29,12 @@ echo "crt.sh subdomains saved to crt.txt."
 
 # UrlScan.io
 echo "Fetching subdomains from UrlScan.io..."
-# curl -s "https://urlscan.io/api/v1/search/?q=${domain}" | jq '.data | .[].attributes | .url' | sed 's/\"//g' | sort -u > urlscan.txt
+#curl -s "https://urlscan.io/api/v1/search/?q=${domain}" | jq '.data | .[].attributes | .url' | sed 's/\"//g' | sort -u > urlscan.txt
 echo "UrlScan.io subdomains saved to urlscan.txt."
 
 # AlienVault
 echo "Fetching subdomains from AlienVault..."
-# curl -s "https://otx.alienvault.com/api/v1/indicators/domain/${domain}/passive_dns" | jq '.passive_dns[].hostname' | sed 's/\"//g' | sort -u > alienvault.txt
+#curl -s "https://otx.alienvault.com/api/v1/indicators/domain/${domain}/passive_dns" | jq '.passive_dns[].hostname' | sed 's/\"//g' | sort -u > alienvault.txt
 echo "AlienVault subdomains saved to alienvault.txt."
 
 # Security Trails
