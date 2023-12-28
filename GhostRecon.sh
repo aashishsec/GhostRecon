@@ -16,7 +16,7 @@ if [ -z "$1" ]; then
 fi
 
 domain="$1"
-output_dir="passive_recon_output"
+output_dir="passive_recon"
 
 # Create output directory if it doesn't exist
 mkdir -p "$output_dir"
