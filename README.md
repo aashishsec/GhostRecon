@@ -11,6 +11,8 @@
 ╚██████╔╝██║░░██║╚█████╔╝██████╔╝░░░██║░░░██║░░██║███████╗╚█████╔╝╚█████╔╝██║░╚███║
 ░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝░╚════╝░░╚════╝░╚═╝░░╚══╝
 
+                     Author : Aashishsec
+                     Github : https://github.com/aashishsec
 ```
 
 Certainly! Below is a GitHub-flavored Markdown documentation for your script:
@@ -19,11 +21,6 @@ Certainly! Below is a GitHub-flavored Markdown documentation for your script:
 # Reconnaissance Script
 
 This Bash script performs domain reconnaissance by fetching subdomains from various sources and saving them to text files. It organizes the output in a directory and saves the unique sorted domains outside the directory.
-
-## Author
-
-- **Author:** Aashishsec
-- **GitHub:** [https://github.com/aashishsec/](https://github.com/aashishsec/)
 
 ## Usage
 
