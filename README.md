@@ -1,4 +1,4 @@
-# GhostRecon  - Passive Subdomain Enumeration Tool
+# GhostRecon  -🌐 Passive Reconnaissance Tool for Domain Discovery 🕵️‍♂️
 
 # Reconnaissance Tool
 
