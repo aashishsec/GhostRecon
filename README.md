@@ -91,6 +91,11 @@ The script performs the following steps:
   - `example.com_securitytrails.txt`
 - `all_domains.txt`
 
+## Tool Output
+
+![image](https://github.com/aashishsec/GhostRecon/assets/65489287/ef4e1f91-2aa5-4a4e-ae83-8c80f14a68a3)
+
+
 Reconnaissance completed successfully. Unique domains saved to `all_domains.txt`.
 
 ## Notes
