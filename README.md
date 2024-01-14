@@ -27,7 +27,7 @@ This Bash script performs domain reconnaissance by fetching subdomains from vari
 ## Usage
 
 ```bash
-./recon_script.sh <domain>
+./GhostRecon.sh  <domain>
 ```
 
 Replace `<domain>` with the target domain.
