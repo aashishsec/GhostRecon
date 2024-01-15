@@ -4,7 +4,7 @@
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
-RESET='\033[0m' # Reset color to default
+RESET='\033[0m'
 
 echo -e "                                                                                      "
 echo -e "                                                                                      "
@@ -26,6 +26,8 @@ fi
 
 domain="$1"
 output_dir="passive_recon"
+
+echo -e "${YELLOW}We are Enumerating this domain: ${domain}.${RESET}"
 
 # Create output directory if it doesn't exist
 mkdir -p "$output_dir"
