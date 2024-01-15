@@ -93,8 +93,7 @@ The script performs the following steps:
 
 ## Tool Output
 
-![image](https://github.com/aashishsec/GhostRecon/assets/65489287/ef4e1f91-2aa5-4a4e-ae83-8c80f14a68a3)
-
+![image](https://github.com/aashishsec/GhostRecon/assets/65489287/a322c911-6440-4965-9a1b-0d90a8e81247)
 
 Reconnaissance completed successfully. Unique domains saved to `all_domains.txt`.
 
