@@ -18,6 +18,7 @@ echo -e "                                                                       
 echo -e "                             ${YELLOW}Author: Aashishsec${RESET}  "
 echo -e "                             ${YELLOW}Github: https://github.com/aashishsec/${RESET}"
 echo -e "                                                                                      "
+echo "Tool Started at:" $(date +"%d-%m-%Y %I:%M %p")
 
 if [ -z "$1" ]; then
     echo -e "${RED}Usage: $0 <domain>${RESET}"
@@ -87,5 +88,7 @@ echo -e "${GREEN}Passive Reconnaissance completed successfully. Unique domains s
 
 echo -e "                                                                                      "
 echo -e "                                                                                      "
+rm -rf $output_dir
 echo -e "${GREEN}Number of Subdomains for ${domain} is $(cat all_domains.txt | wc -l).${RESET}"
+echo "Tool Ended at:" $(date +"%d-%m-%Y %I:%M %p")
 
