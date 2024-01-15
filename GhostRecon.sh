@@ -89,6 +89,7 @@ echo -e "${GREEN}Passive Reconnaissance completed successfully. Unique domains s
 echo -e "                                                                                      "
 echo -e "                                                                                      "
 rm -rf $output_dir
+rm -rf ${domain}.txt
 echo -e "${GREEN}Number of Subdomains for ${domain} is $(cat all_domains.txt | wc -l).${RESET}"
 echo "Tool Ended at:" $(date +"%d-%m-%Y %I:%M %p")
 
